@@ -11,5 +11,3 @@ while t:
     else:
         print((int(x[0])-1)*10+1)
     t-=1
-
-22
