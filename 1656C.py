@@ -1,0 +1,17 @@
+class solve:
+    def __init__(self):
+        for i in range(int(input())):
+            self.solution()
+ 
+    def solution(self):
+        n=int(input())
+        a=list(map(int,input().split()))
+        if 1 in a:
+            a.sort()
+            for i in range(n-1):
+                if a[i]+1==a[i+1]:
+                    print("NO")
+                    return
+        print("YES")
+ 
+obj=solve()
